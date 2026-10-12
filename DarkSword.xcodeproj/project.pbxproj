@@ -1,0 +1,167 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		111111111111111111111111 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222222222222222222222222 /* AppDelegate.swift */; };
+		333333333333333333333333 /* ExploitBridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = 444444444444444444444444 /* ExploitBridge.mm */; };
+		555555555555555555555555 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 666666666666666666666666 /* IOKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		222222222222222222222222 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		444444444444444444444444 /* ExploitBridge.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ExploitBridge.mm; sourceTree = "<group>"; };
+		777777777777777777777777 /* DarkSword-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DarkSword-Bridging-Header.h"; sourceTree = "<group>"; };
+		888888888888888888888888 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		999999999999999999999999 /* DarkSword.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DarkSword.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		666666666666666666666666 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AAAAAAAAAAAAAAA000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				555555555555555555555555 /* IOKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBBBBBBBBBBBBBB000000000 = {
+			isa = PBXGroup;
+			children = (
+				222222222222222222222222 /* AppDelegate.swift */,
+				444444444444444444444444 /* ExploitBridge.mm */,
+				777777777777777777777777 /* DarkSword-Bridging-Header.h */,
+				888888888888888888888888 /* Info.plist */,
+				666666666666666666666666 /* IOKit.framework */,
+				999999999999999999999999 /* DarkSword.app */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCCCCCCCCCCCCCC000000000 /* DarkSword */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDDDDDDDDDDDDDD000000000 /* Build configuration list for PBXNativeTarget "DarkSword" */;
+			buildPhases = (
+				EEEEEEEEEEEEEEE000000000 /* Sources */,
+				AAAAAAAAAAAAAAA000000000 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DarkSword;
+			productName = DarkSword;
+			productReference = 999999999999999999999999 /* DarkSword.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFFFFFFFFFFFFFF000000000 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					CCCCCCCCCCCCCCC000000000 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = GGGGGGGGGGGGGGG000000000 /* Build configuration list for PBXProject "DarkSword" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBBBBBBBBBBBBBB000000000;
+			productRefGroup = BBBBBBBBBBBBBBB000000000;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCCCCCCCCCCCCCC000000000 /* DarkSword */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEEEEEEEEEEEEEE000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				111111111111111111111111 /* AppDelegate.swift in Sources */,
+				333333333333333333333333 /* ExploitBridge.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		HHHHHHHHHHHHHHH000000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_MODULES = YES;
+				COPY_PHASE_STRIP = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		IIIIIIIIIIIIIII000000000 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGNING_REQUIRED = NO;
+				CODE_SIGNING_ALLOWED = NO;
+				INFOPLIST_FILE = Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.darksword.payload;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DarkSword-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDDDDDDDDDDDDDD000000000 /* Build configuration list for PBXNativeTarget "DarkSword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				IIIIIIIIIIIIIII000000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		GGGGGGGGGGGGGGG000000000 /* Build configuration list for PBXProject "DarkSword" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				HHHHHHHHHHHHHHH000000000 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFFFFFFFFFFFFFF000000000 /* Project object */;
+}
