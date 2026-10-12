@@ -19,7 +19,9 @@ jobs:
 
       - name: Build the App (Unsigned for Jailbroken Devices)
         run: |
-          xcodebuild clean build             -project DarkSword.xcodeproj             -scheme DarkSword             -configuration Release             -sdk iphoneos             CODE_SIGN_IDENTITY=""             CODE_SIGNING_REQUIRED=NO             CODE_SIGN_ENTITLEMENTS=""             CODE_SIGNING_ALLOWED=NO
+          xcodebuild clean build             -project DarkSword.xcodeproj             -scheme DarkSword             -configuration Release             -sdk iphoneos             CODE_SIGN_IDENTITY=""             CODE_SIGNING_REQUIRED=NO             CODE_SIGN_ENTITLEMENTS=""             CODE_SIGNING_ALLOWED=NO \
+            COMPILER_INDEX_STORE_ENABLE=NO \
+            ONLY_ACTIVE_ARCH=NO
 
       - name: Package into IPA
         run: |
