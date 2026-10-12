@@ -28,7 +28,7 @@ jobs:
           zip -r DarkSword.ipa Payload
 
       - name: Upload IPA Artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: DarkSword-Payload
           path: DarkSword.ipa
